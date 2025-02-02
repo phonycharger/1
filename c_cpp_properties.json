@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "compilerArgs": [
+              "-Wall", "-Wextra", "-pedantic",
+              "-Wdelete-non-virtual-dtor",
+              "-Wduplicated-branches",
+              "-Wduplicated-cond",
+              "-Wextra-semi",
+              "-Wfloat-equal",
+              "-Winit-self",
+              "-Wlogical-op",
+              "-Wnoexcept",
+              "-Wshadow",
+              "-Wnon-virtual-dtor",
+              "-Wold-style-cast",
+              "-Wstrict-null-sentinel",
+              "-Wsuggest-override",
+              "-Wswitch-default",
+              "-Wswitch-enum",
+              "-Woverloaded-virtual",
+              "-Wuseless-cast"
+            ],
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "linux-gcc-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
